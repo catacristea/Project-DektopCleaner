@@ -119,7 +119,7 @@ while True:
                 except OSError as error:
                     print(error)
             else:
-                print(f'{i} nu are o extensie care poate fi utilizata de program')
+                print(f'{i} nu are o extensie care poate fi utilizata de program!')
     else:
         event == sg.WIN_CLOSED
     break
